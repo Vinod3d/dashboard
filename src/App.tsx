@@ -39,11 +39,7 @@ function App() {
     )
   }
 
-  const toggleBookmark = (courseId: string) => {
-    setCourses(
-      courses.map((course) => (course.id === courseId ? { ...course, isBookmarked: !course.isBookmarked } : course)),
-    )
-  }
+  
 
   const toggleMobileSidebar = () => {
     setMobileSidebarOpen(!mobileSidebarOpen)
@@ -78,7 +74,6 @@ function App() {
           loading={loading}
           error={error}
           toggleFavorite={toggleFavorite}
-          toggleBookmark={toggleBookmark}
         />
       </div>
 
