@@ -23,6 +23,7 @@ const CourseGrid = ({ courses, toggleFavorite, viewMode }: CourseGridProps) => {
           viewMode={viewMode}
         />
       ))}
+      <p>Admin changes</p>
     </div>
   )
 }
