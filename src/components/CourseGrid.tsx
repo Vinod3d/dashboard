@@ -23,6 +23,11 @@ const CourseGrid = ({ courses, toggleFavorite, viewMode }: CourseGridProps) => {
           viewMode={viewMode}
         />
       ))}
+      {courses.length === 0 && (
+        <div className="text-center text-gray-500">
+          No courses available.
+        </div>
+      )}
     </div>
   )
 }
