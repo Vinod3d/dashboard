@@ -19,6 +19,7 @@ const login = () => {
       <p>Don't have an account? <a href="/register">Register here</a></p>
       <p>main admin changes</p>
         <h1>Vinod Login Page</h1>
+        <p>Sumit Added this para</p>
     </div>
   )
 }
