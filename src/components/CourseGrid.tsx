@@ -28,6 +28,7 @@ const CourseGrid = ({ courses, toggleFavorite, viewMode }: CourseGridProps) => {
           No courses available.
         </div>
       )}
+      <p>Admin changes</p>
     </div>
   )
 }
